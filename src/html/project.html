@@ -1,0 +1,88 @@
+<div class="project">
+	<div class="project__container _container">
+		<div class="project__head head-project">
+			<div class="head-project__title">Заявка на проект</div>
+			<div class="head-project__subtitle">Оставьте заявку или позвоните и мы сами все за вас заполним: <span>+7 495 740
+					61 10</span></div>
+		</div>
+		<div class="project__form form">
+			<form action="#" id="form" class="form__body">
+				<h4 class="form__title">Расскажите о себе и проекте</h4>
+				<div class="form__item">
+					<input placeholder="Ваше имя" id="formName" type="text" name="name" class="form__input _req">
+				</div>
+				<div class="form__item">
+					<input placeholder="Ваш телефон" id="formPhone" type="phone" name="phone" class="form__input _req">
+				</div>
+				<div class="form__item">
+					<input placeholder="Электронная почта" id="formEmail" type="text" name="email"
+						class="form__input _req _email">
+				</div>
+				<div class="form__item">
+					<textarea placeholder="Пару слов о вашей задаче" id="formMessage" class="form__input _req"></textarea>
+				</div>
+				<div class="form__item">
+					<div class="file">
+						<div class="file__item">
+							<input id="formFile" type="file" name="file" class="file__input">
+							<div class="file__button"><img src="@img/icons/attach.png" alt="attach"> Прикрепить ТЗ</div>
+							<div class="file__text">Не более 10 МБ</div>
+							<div id="formPreview" class="file__preview"></div>
+						</div>
+					</div>
+				</div>
+				<div class="form__item">
+					<div class="form__label">Ваш бюджет, в ₽</div>
+					<div class="options">
+						<div class="options__item">
+							<input type="radio" class="btn-check" name="budget" id="budget1" autocomplete="off" checked>
+							<label class="btn" for="budget1">до 100 000</label>
+						</div>
+						<div class="options__item">
+							<input type="radio" class="btn-check" name="budget" id="budget2" autocomplete="off">
+							<label class="btn" for="budget2">до 500 000</label>
+						</div>
+						<div class="options__item">
+							<input type="radio" class="btn-check" name="budget" id="budget3" autocomplete="off">
+							<label class="btn" for="budget3">до 1 000 000</label>
+						</div>
+						<div class="options__item">
+							<input type="radio" class="btn-check" name="budget" id="budget4" autocomplete="off">
+							<label class="btn" for="budget4">> 1 000 000</label>
+						</div>
+					</div>
+				</div>
+				<div class="form__item">
+					<div class="form__label">Откуда узнали про нас</div>
+					<div class="options">
+						<div class="options__item">
+							<input type="radio" class="btn-check" name="source" id="source1" autocomplete="off" checked>
+							<label class="btn" for="source1">Реклама</label>
+						</div>
+						<div class="options__item">
+							<input type="radio" class="btn-check" name="source" id="source2" autocomplete="off">
+							<label class="btn" for="source2">СМИ</label>
+						</div>
+						<div class="options__item">
+							<input type="radio" class="btn-check" name="source" id="source3" autocomplete="off">
+							<label class="btn" for="source3">Рейтинг</label>
+						</div>
+						<div class="options__item">
+							<input type="radio" class="btn-check" name="source" id="source4" autocomplete="off">
+							<label class="btn" for="source4">Соцсети</label>
+						</div>
+						<div class="options__item">
+							<input type="radio" class="btn-check" name="source" id="source5" autocomplete="off">
+							<label class="btn" for="source5">Рекомендации</label>
+						</div>
+					</div>
+				</div>
+				<div class="form__submit submit">
+					<button type="submit" class="submit__button">Отправить заявку</button>
+					<div class="submit__text">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь
+						с политикой конфиденциальности.</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

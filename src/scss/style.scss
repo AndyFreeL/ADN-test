@@ -1,0 +1,62 @@
+//Шрифты=====================
+@import "fonts";
+$fontFamily: "Formular";
+//===========================
+
+//Стили======================
+@import "header";
+@import "portfolio";
+@import "project";
+@import "footer";
+//===========================
+
+//Переменные=================
+$minWidth: 320px;
+$mw: 1680;
+$md1: $mw + 12;
+$md2: 1440.98;
+$md3: 1024.98;
+$md4: 768.98px;
+//===========================
+
+//Общие параметры, обнуление=
+@import "null";
+body{
+	background-color: #FFFFFF;
+	color:#1D233F;
+}
+//===========================
+
+//Оболочка===================
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	// overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	&._loaded {
+	}
+}
+//===========================
+
+//Контейнер==================
+._container {
+	padding: 10px;
+	max-width: $mw + px;
+	margin: 0 auto;
+	@media (max-width: $md1+px) {
+		max-width: 1367px;
+	}
+	@media (max-width: $md2+px) {
+		max-width: 1175px;
+		padding: 0;
+	}
+	@media (max-width: $md3+px) {
+		max-width: 944px;
+	}
+}
+//===========================
+
+._no-scroll{
+	overflow: hidden;
+}
